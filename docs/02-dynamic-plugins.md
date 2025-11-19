@@ -143,7 +143,7 @@ Or... even better!  Just use the command line.
 
 ```
 oc apply -k \
-    https://github.com/pittar-demos/rhdh-build-an-idp/gitops/demo/argocd/rhdh-instance/plugins \
+    https://github.com/fmenesesg/rhdh-build-an-idp/gitops/demo/argocd/rhdh-instance/plugins \
     -n openshift-gitops
 ```
 

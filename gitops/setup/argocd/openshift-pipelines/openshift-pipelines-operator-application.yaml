@@ -14,7 +14,7 @@ spec:
   project: default
   source:
     path: openshift-pipelines-operator/overlays/latest
-    repoURL: https://github.com/pittar-demos/demo-catalog.git
+    repoURL: https://github.com/fmenesesg/demo-catalog.git
     targetRevision: main
   syncPolicy:
     automated:

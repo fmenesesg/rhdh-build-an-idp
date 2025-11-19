@@ -34,7 +34,7 @@ This will create a Backstage instance as well as a PostgreSQL database.  Of cour
 We will not focus on the `ConfigMap` that is created right now, we'll get to that in the next step.
 
 ```
-oc apply -k https://github.com/pittar-demos/rhdh-build-an-idp/gitops/demo/argocd/rhdh-instance/basic -n openshift-gitops
+oc apply -k https://github.com/fmenesesg/rhdh-build-an-idp/gitops/demo/argocd/rhdh-instance/basic -n openshift-gitops
 ```
 
 If you're already logged into the Argo CD user interface, you can watch the Backstage deployment roll out.

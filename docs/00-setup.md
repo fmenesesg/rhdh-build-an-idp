@@ -14,13 +14,13 @@ An IDP is build on a solid foundation of tools and processes.  This means, we ne
 Let's install GitOps with the CLI... who wants to point-and-click anyway?
 
 ```
-oc apply -k https://github.com/pittar-demos/rhdh-build-an-idp/gitops/setup/openshift-gitops/operator
+oc apply -k https://github.com/fmenesesg/rhdh-build-an-idp/gitops/setup/openshift-gitops/operator
 ```
 
 And once that is up and running, let's complete the setup with GitOps!
 
 ```
-oc create -f https://raw.githubusercontent.com/pittar-demos/rhdh-build-an-idp/main/gitops/setup/argocd/bootstrap/bootstrap-application.yaml -n openshift-gitops
+oc create -f https://raw.githubusercontent.com/fmenesesg/rhdh-build-an-idp/main/gitops/setup/argocd/bootstrap/bootstrap-application.yaml -n openshift-gitops
 ```
 
 This will:

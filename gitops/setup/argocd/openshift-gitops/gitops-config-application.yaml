@@ -14,7 +14,7 @@ spec:
   project: default
   source:
     path: gitops/setup/openshift-gitops/instance
-    repoURL: https://github.com/pittar-demos/rhdh-build-an-idp.git
+    repoURL: https://github.com/fmenesesg/rhdh-build-an-idp.git
     targetRevision: main
   syncPolicy:
     automated:

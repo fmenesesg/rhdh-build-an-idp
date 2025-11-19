@@ -21,4 +21,4 @@ spec:
   giteaRepositoriesList:
     - name: rhdh-build-an-idp
       private: false
-      repo: 'https://github.com/pittar-demos/rhdh-build-an-idp.git'
+      repo: 'https://github.com/fmenesesg/rhdh-build-an-idp.git'
