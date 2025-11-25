@@ -21,10 +21,10 @@ data:
       cors:
         origin: https://backstage-developer-hub-rhdh.apps-crc.testing
       integrations:
-      gitea:
-        - host: gitea-scm.apps-crc.testing
-          username: ${GITEA_USERNAME}
-          password: ${GITEA_PASSWORD}
+        gitea:
+          - host: gitea-scm.apps-crc.testing
+            username: ${GITEA_USERNAME}
+            password: ${GITEA_PASSWORD}
 
     argocd:
       waitCycles: 25
