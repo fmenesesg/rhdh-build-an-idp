@@ -7,9 +7,9 @@ data:
     includes:
       - dynamic-plugins.default.yaml
     plugins:
-      - package: '@backstage/plugin-scaffolder-backend-module-gitea@0.1.12'
+      - package: '@backstage/plugin-scaffolder-backend-module-gitea@0.2.15'
         disabled: false
-        integrity: sha512-2Mjvd1cOIfgRLc7BetAADETzmgTpC/IrGomzly2Fvn4rubFmpY69qyAPU/LIWO0VB/BG75d4dQEDqkhCLBiWsg==
+        integrity: sha512-bOBQfIxQo7A0a0kzHXvkpYVRMJa6CtRE8meCxwiscwx8kPhdXijNuPyUJebwWmdc7pZ+krvevuXsDoHgJ2B++g==
       - package: ./dynamic-plugins/dist/roadiehq-backstage-plugin-argo-cd
         disabled: false
       - package: ./dynamic-plugins/dist/roadiehq-backstage-plugin-argo-cd-backend-dynamic
